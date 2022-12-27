@@ -8,6 +8,6 @@ while n!=0:
     sum=sum+(r**(L+1))
     n=n//10
 if org==sum:
-    print(org,"is Armstrong No")
+    print(f"{org} is an Armstrong Number")
 else:
-    print(org,"is not an Armstrong No")
+    print(f"{org} is not an Armstrong Number")
